@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "yaml_resume_cli"
+version = "0.1.0"
+license = "MIT"
+description = "CLI for generating and rendering your resume"
+readme = "README.md"
+authors = [
+    { name = "Eivind Otto Hjelle", email = "eohjelle@gmail.com" },
+]
+
+[tool.poetry]
+include = [
+    "templates/**/*", 
+    "resume.yaml"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "*"
+jinja2 = "*"
+openai = "*"
+
+[project.scripts]
+resume = "yaml_resume_cli.cli:main"
+
