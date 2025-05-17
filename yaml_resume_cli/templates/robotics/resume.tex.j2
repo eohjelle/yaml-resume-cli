@@ -1,0 +1,98 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Customize hyperlink appearance
+\definecolor{darkblue}{RGB}{0,0,120}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% No paragraph indentation
+\setlength{\parindent}{0pt}
+% \setlength{\parskip}{0.5em} % Optional: adds space between paragraphs
+
+% Section formatting
+\titleformat{\section}
+    {\normalsize\bfseries\uppercase}
+    {}{0em}{}[\titlerule]
+\titlespacing*{\section}
+    {0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% Custom commands for better spacing
+\newcommand{\spaced}[1]{\vspace{0.3em}#1\vspace{0.3em}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large\bfseries{ {{- name -}} }}\\[0.2em]
+    {\normalsize
+        \href{mailto:{{ contact.email }}}{ {{- contact.email -}} } ~|~
+        \href{tel:{{ contact.phone }}}{ {{- contact.phone -}} } ~|~
+        \href{ {{- contact.github -}} }{GitHub}
+    }
+\end{center}
+
+\vspace{0.5em}
+
+% Summary
+{% if summary %}
+\section*{Summary}
+{% for s in summary %}
+{{ s.text }}
+{% endfor %}
+{% endif %}
+
+% Experience
+\section*{Experience}
+{% for job in experience %}
+\textbf{ {{- job.organization -}} }, \hfill {{ job.location }} \\
+\textit{ {{- job.role -}} }, \hfill {{ job.start }} -- {{ job.end }}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0.1em]
+{% for b in job.bullets %}
+    \item {{ b }}
+{% endfor %}
+\end{itemize}
+\vspace{0.3em}
+{% endfor %}
+
+% Projects
+\section*{Projects}
+{% for p in projects %}
+\textbf{\href{ {{- p.url -}} }{ {{- p.title -}} }}, \hfill {{ p.date }} \\
+{{ p.description }} \\
+\vspace{0.3em}
+{% endfor %}
+
+% Education
+\section*{Education}
+{% for ed in education %}
+\textbf{ {{- ed.institution -}}, } \hfill {{ ed.location }} \\
+{{ ed.degree }}, \hfill {{ ed.date }}
+\vspace{0.3em}
+{% endfor %}
+
+% Honors and Awards
+\section*{Honors and Awards}
+{% for award in honors %}
+\textbf{ {{- award.title -}},} \hfill {{ award.date }} \\
+{{ award.description }}
+\vspace{0.3em}
+{% endfor %}
+
+% Publications
+\section*{Publications}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=0.1em]
+{% for pub in publications %}
+    \item \textit{\href{ {{- pub.url -}} }{ {{- pub.title -}} }}{% if pub.coauthors %}, with {{ pub.coauthors | join(", ") }}{% endif %}. {{ pub.type }}.{% if pub.journal %} {{ pub.journal }} ({{ pub.date }}).{% endif %}
+{% endfor %}
+\end{itemize}
+
+\end{document}
