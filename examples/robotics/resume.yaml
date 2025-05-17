@@ -1,0 +1,71 @@
+name: Geppetto
+contact:
+  location: Villaggio Incantato, Italy
+  date_of_birth: March 12, 1820
+  citizenship: Italy
+  email: geppetto@woodmail.it
+  phone: +39 123 456 7890
+  github: https://github.com/geppetto-works
+summary:
+- text: Artisan and self-taught roboticist with experience designing emotionally expressive
+    wooden constructs. Passionate about human-centered mechanics and narrative-driven
+    autonomy. Seeking a role that values ethical robotics, hands-on design, and whimsical
+    engineering.
+  tags:
+  - robotics
+education:
+- institution: Guild of Master Carvers
+  degree: Journeyman Woodworker Certification
+  date: 1842
+  location: Florence, Italy
+  tags:
+  - all
+- institution: Independent Study
+  degree: Apprenticeship in Automata Construction and Puppet Mechanics
+  date: 1845
+  location: Venice, Italy
+  tags:
+  - robotics
+  - woodworking
+experience:
+- organization: Geppetto's Workshop
+  location: Villaggio Incantato, Italy
+  role: Master Woodcarver and Toymaker
+  start: January 1850
+  end: Present
+  bullets:
+  - Created Pinocchio, an autonomous puppet capable of emotional response and ethical
+    reasoning.
+  - Designed and handcrafted over 300 wooden toys including emotive puppets and musical
+    automata.
+  - Built puppet theaters with hand-cranked scenery for school performances, focusing
+    on narrative interactions.
+  tags:
+  - all
+projects:
+- title: Pinocchio
+  date: Ongoing
+  description: A fully articulated wooden puppet designed for emotional expressiveness
+    and narrative-constrained learning. Combines handcrafted form with emergent behavioral
+    systems and ethical instruction frameworks.
+  url: https://en.wikipedia.org/wiki/Pinocchio
+  tags:
+  - all
+honors:
+- title: Best Toymaker in Tuscany
+  description: Awarded by the Tuscany Chamber of Artisans for craftsmanship, community
+    impact, and imaginative design.
+  date: December 1883
+  tags:
+  - all
+publications:
+- title: 'The Heart Inside the Wood: Designing for Growth'
+  type: Preprint (submitted)
+  date: 1881
+  tags:
+  - robotics
+- title: 'Whimsy and Will: Puppetry as a Medium for Ethical Development'
+  type: Symposium Proceedings
+  date: 1880
+  tags:
+  - robotics

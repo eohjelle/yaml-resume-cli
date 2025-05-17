@@ -1,0 +1,46 @@
+# {{ name }}
+
+{{ contact.email }} | {{ contact.phone }} | [GitHub]({{ contact.github }})
+
+{% if summary %}
+## Summary
+{% for s in summary %}
+{{ s.text }}
+{% endfor %}
+{% endif %}
+
+## Experience
+{% for job in experience %}
+### {{ job.organization }}, {{ job.location }}
+*{{ job.role }}* ({{ job.start }} -- {{ job.end }})
+{% for b in job.bullets %}
+- {{ b }}
+{% endfor %}
+
+{% endfor %}
+
+## Projects
+{% for p in projects %}
+### [{{ p.title }}]({{ p.url }}), {{ p.date }}
+{{ p.description }}
+
+{% endfor %}
+
+## Education
+{% for ed in education %}
+### {{ ed.institution }}, {{ ed.location }}
+{{ ed.degree }}, {{ ed.date }}
+
+{% endfor %}
+
+## Honors and Awards
+{% for award in honors %}
+### {{ award.title }}, {{ award.date }}
+{{ award.description }}
+
+{% endfor %}
+
+## Publications
+{% for pub in publications %}
+- *[{{ pub.title }}]({{ pub.url }})*{% if pub.coauthors %}, with {{ pub.coauthors | join(", ") }}{% endif %}. {{ pub.type }}.{% if pub.journal %} {{ pub.journal }} ({{ pub.date }}).{% endif %}
+{% endfor %} 

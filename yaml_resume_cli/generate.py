@@ -34,7 +34,7 @@ def refine_with_llm(resume, role, job_description):
         "Feel free to reorganize or rename the entries, and reorganize information between bullet points. "
         "But do not make up any new information, and try to limit the number of bullet points within each entry to 3. "
         "Preserve the original structure of the resume; do not make up any new sections. "
-        "Return only valid YAML."
+        "Return only valid YAML; remember to put quotes around titles that contain colons. "
     )
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     print("Refining resume with LLM...")
