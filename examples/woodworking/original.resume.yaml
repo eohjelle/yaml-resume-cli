@@ -7,104 +7,106 @@ contact:
   phone: +39 123 456 7890
   github: https://github.com/geppetto-works
 summary:
-  - text:
-      "Master woodcarver with a lifelong dedication to handcraft, toy design, and
-      mechanical storytelling.
+- text: 'Master woodcarver with a lifelong dedication to handcraft, toy design, and
+    mechanical storytelling.
 
-      Combines traditional techniques with creative engineering to build expressive
-      and enduring works.
+    Combines traditional techniques with creative engineering to build expressive
+    and enduring works.
 
-      Looking to contribute craftsmanship and care to meaningful creative projects.
+    Looking to contribute craftsmanship and care to meaningful creative projects.
 
-      "
-    tags:
-      - woodworking
+    '
+  tags:
+  - woodworking
 education:
-  - institution: Guild of Master Carvers
-    degree: Journeyman Woodworker Certification
-    date: 1842
-    location: Florence, Italy
-    tags:
-      - all
-  - institution: Independent Study
-    degree: Apprenticeship in Automata Construction and Puppet Mechanics
-    date: 1845
-    location: Venice, Italy
-    tags:
-      - robotics
-      - woodworking
+- institution: Guild of Master Carvers
+  degree: Journeyman Woodworker Certification
+  date: 1842
+  location: Florence, Italy
+  tags:
+  - all
+- institution: Independent Study
+  degree: Apprenticeship in Automata Construction and Puppet Mechanics
+  date: 1845
+  location: Venice, Italy
+  tags:
+  - robotics
+  - woodworking
 experience:
-  - organization: Geppetto's Workshop
-    location: Villaggio Incantato, Italy
-    role: Master Woodcarver and Toymaker
-    start: January 1850
-    end: Present
-    bullets:
-      - Designed and handcrafted over 300 wooden toys including animals, puppets, and
-        musical automata.
-      - Created Pinocchio, an autonomous puppet capable of emotional response and ethical
-        reasoning.
-      - Offered sliding-scale toy repairs and creations for families in the village.
-      - Built puppet theaters with hand-cranked scenery for school performances.
-    tags:
-      - all
-  - organization: Puppet Theater of Tuscany
-    location: Tuscany, Italy
-    role: Set Designer and Puppet Articulator
-    start: June 1848
-    end: December 1849
-    bullets:
-      - Designed stage mechanisms and built expressive puppets for traveling shows.
-      - Worked with performers to enhance articulation through mechanical design.
-    tags:
-      - woodworking
+- organization: Geppetto's Workshop
+  location: Villaggio Incantato, Italy
+  role: Master Woodcarver and Toymaker
+  start: January 1850
+  end: Present
+  bullets:
+  - Designed and handcrafted over 300 wooden toys including animals, puppets, and
+    musical automata.
+  - Created Pinocchio, an autonomous puppet capable of emotional response and ethical
+    reasoning.
+  - Offered sliding-scale toy repairs and creations for families in the village.
+  - Built puppet theaters with hand-cranked scenery for school performances.
+  - Developed innovative joint mechanisms for enhanced puppet mobility and expression.
+  - Mentored 15 apprentices in traditional woodcarving techniques and mechanical design.
+  - Invented a self-playing musical box system using wooden gears and wind-up mechanisms.
+  - Established a community workshop program teaching basic woodworking to village
+    children.
+  - Created custom mechanical toys for special needs children to aid in motor skill
+    development.
+  tags:
+  - all
+- organization: Puppet Theater of Tuscany
+  location: Tuscany, Italy
+  role: Set Designer and Puppet Articulator
+  start: June 1848
+  end: December 1849
+  bullets:
+  - Designed stage mechanisms and built expressive puppets for traveling shows.
+  - Worked with performers to enhance articulation through mechanical design.
+  tags:
+  - woodworking
 projects:
-  - title: Pinocchio
-    date: Ongoing
-    description:
-      "A fully articulated wooden puppet designed for emotional expressiveness
-      and narrative-constrained learning. Combines handcrafted form with emergent behavioral
-      systems and ethical instruction frameworks.
+- title: Pinocchio
+  date: Ongoing
+  description: 'A fully articulated wooden puppet designed for emotional expressiveness
+    and narrative-constrained learning. Combines handcrafted form with emergent behavioral
+    systems and ethical instruction frameworks.
 
-      "
-    url: https://en.wikipedia.org/wiki/Pinocchio
-    tags:
-      - all
-  - title: Whistle-toy Orchestra
-    date: March 1885
-    description:
-      "A set of carved whistle-operated instruments that harmonize through
-      tuned airflow and puppet-assisted actuation. Created to teach children musical
-      structure through playful experimentation.
+    '
+  url: https://en.wikipedia.org/wiki/Pinocchio
+  tags:
+  - all
+- title: Whistle-toy Orchestra
+  date: March 1885
+  description: 'A set of carved whistle-operated instruments that harmonize through
+    tuned airflow and puppet-assisted actuation. Created to teach children musical
+    structure through playful experimentation.
 
-      "
-    tags:
-      - woodworking
+    '
+  tags:
+  - woodworking
 honors:
-  - title: Best Toymaker in Tuscany
-    description:
-      Awarded by the Tuscany Chamber of Artisans for craftsmanship, community
-      impact, and imaginative design.
-    date: December 1883
-    tags:
-      - all
-  - title: Patron of the Children's Guild
-    description:
-      Recognized for mentorship and generosity supporting village youth creative
-      expression.
-    date: June 1886
-    tags:
-      - woodworking
+- title: Best Toymaker in Tuscany
+  description: Awarded by the Tuscany Chamber of Artisans for craftsmanship, community
+    impact, and imaginative design.
+  date: December 1883
+  tags:
+  - all
+- title: Patron of the Children's Guild
+  description: Recognized for mentorship and generosity supporting village youth creative
+    expression.
+  date: June 1886
+  tags:
+  - woodworking
 publications:
-  - title: "Toymaking for the Soul: A Handbook for Village Craft Educators"
-    type: Community Education Manual
-    date: 1876
-    coauthors:
-      - Silvino Boccadutti
-    tags:
-      - woodworking
-  - title: On the Practical Construction of Puppet Joints
-    type: Instructional Manual
-    date: 1874
-    tags:
-      - woodworking
+- title: 'Toymaking for the Soul: A Handbook for Village Craft Educators'
+  type: Community Education Manual
+  date: 1876
+  coauthors:
+  - Silvino Boccadutti
+  tags:
+  - woodworking
+- title: On the Practical Construction of Puppet Joints
+  type: Instructional Manual
+  date: 1874
+  tags:
+  - woodworking

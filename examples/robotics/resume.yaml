@@ -7,10 +7,14 @@ contact:
   phone: +39 123 456 7890
   github: https://github.com/geppetto-works
 summary:
-- text: Artisan and self-taught roboticist with experience designing emotionally expressive
-    wooden constructs. Passionate about human-centered mechanics and narrative-driven
-    autonomy. Seeking a role that values ethical robotics, hands-on design, and whimsical
-    engineering.
+- text: 'Artisan and self-taught roboticist with experience designing emotionally
+    expressive wooden constructs.
+
+    Passionate about human-centered mechanics and narrative-driven autonomy.
+
+    Seeking a role that values ethical robotics, hands-on design, and whimsical engineering.
+
+    '
   tags:
   - robotics
 education:
@@ -36,18 +40,20 @@ experience:
   bullets:
   - Created Pinocchio, an autonomous puppet capable of emotional response and ethical
     reasoning.
-  - Designed and handcrafted over 300 wooden toys including emotive puppets and musical
-    automata.
-  - Built puppet theaters with hand-cranked scenery for school performances, focusing
-    on narrative interactions.
+  - Developed innovative joint mechanisms for enhanced puppet mobility and expression.
+  - Mentored 15 apprentices in traditional woodcarving techniques and mechanical design.
   tags:
   - all
 projects:
 - title: Pinocchio
   date: Ongoing
-  description: A fully articulated wooden puppet designed for emotional expressiveness
-    and narrative-constrained learning. Combines handcrafted form with emergent behavioral
-    systems and ethical instruction frameworks.
+  description: 'A fully articulated wooden puppet designed for emotional expressiveness
+    and narrative-constrained learning.
+
+    Combines handcrafted form with emergent behavioral systems and ethical instruction
+    frameworks.
+
+    '
   url: https://en.wikipedia.org/wiki/Pinocchio
   tags:
   - all
