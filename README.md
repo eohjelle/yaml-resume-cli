@@ -9,7 +9,7 @@ This is not so much a package as a simple template for streamlining the process 
 - Use an LLM to further refine a role-specific resume for specific job descriptions. Manually go over all changes made.
 - Render the resume to any format using customizable templates.
 
-See my blog post for more information. TODO: insert link
+See my [blog post](https://eohjelle.com/posts/yaml-resume/) for more information.
 
 ## Example workflow
 
